@@ -44,6 +44,5 @@ Once the bot is running, you can interact with it by sending commands in a Teleg
 
 Node.js
 node-telegram-bot-api
-Author
-
-## Sasha Kozoriz
+## Author 
+Sasha Kozoriz
