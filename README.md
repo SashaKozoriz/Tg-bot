@@ -1,48 +1,34 @@
-## Telegram Bot
+# Telegram Bot Readme
 
-This is a simple Telegram bot that can perform the following commands:
+This is a Telegram Bot designed using the `node-telegram-bot-api` library in Node.js.
 
-👋 /start: Sends a warm welcome message and a cute sticker to the user.
+## Installation
+```bash
+$ npm install node-telegram-bot-api
+```
 
-👤 /info: Returns the user's name.
-
-🎮 /game: Starts a fun number guessing game.
-
-## Getting Started
-
-To use this bot, you need to have a Telegram account and create a bot using the BotFather. Once you have created a bot, you will receive a token that you can use to interact with the Telegram API.
-
-## Prerequisites
-
-Node.js
-Telegram API token
-Installation
-
-Clone this repository.
-Install the dependencies by running
-npm install
-.
-Replace the
-TOKEN
-variable in
-config.js
-with your Telegram API token.
-Start the bot by running
-npm start
-.
 ## Usage
+1. Set the Telegram Bot API token in the following line:
+```javascript
+const token = "<API-TOKEN>";
+```
+2. Run the bot using the following command:
+```bash
+$ node bot.js
+```
+Bot commands:
+- `/start`: Greets the user.
+- `/info`: Displays the user's name.
+- `/game`: Plays a number guessing game.
 
-Once the bot is running, you can interact with it by sending commands in a Telegram chat. The available commands are:
+## Overview
+This bot utilizes the following functions:
+- `bot.sendMessage(chatId, message, options)`: Sends a text message to a user.
+- `bot.sendSticker(chatId, sticker)`: Sends a sticker to a user.
+- `bot.setMyCommands(commands)`: Sets the commands available to the user.
+- `bot.on("message", async (msg))`: Listens to message events.
+- `bot.on("callback_query", async (query))`: Listens to query events.
+- `startGame(chatId)`: Starts a number guessing game.
 
-👋 /start: Sends a warm welcome message and a cute sticker to the user.
-
-👤 /info: Returns the user's name.
-
-🎮 /game: Starts a fun number guessing game.
-
-## Built With
-
-Node.js
-node-telegram-bot-api
-## Author 
-Sasha Kozoriz
+## Contributors
+- Sasha Kozoriz(https://github.com/SashaKozoriz)
