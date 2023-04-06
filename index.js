@@ -58,7 +58,7 @@ const start = () => {
     if (data === "/again") {
       return startGame(chatId);
     }
-    if (data === chats[chatId]) {
+    if (parseInt(data) === chats[chatId]) {
       return await bot.sendMessage(
         chatId,
         `Вітаю ти відгадав цифру ${chats[chatId]}`,
