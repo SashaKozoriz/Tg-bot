@@ -1,5 +1,17 @@
-Telegram Number Guessing Game Bot
-This is a Telegram bot that plays a simple number guessing game. The bot can be interacted with by sending commands in a Telegram chat. The available commands are:
+Telegram Number Guessing Bot
+This is a simple Telegram bot that allows users to play a fun number guessing game, and perform other commands.
+
+Table of Contents
+Introduction
+Getting Started
+Prerequisites
+Installation
+Usage
+Built With
+Authors
+License
+Introduction
+This Telegram bot was created using Node.js and the node-telegram-bot-api package. It allows users to interact with the bot by sending commands in a Telegram chat. The available commands are:
 
 /start: Sends a warm welcome message and a cute sticker to the user.
 /info: Returns the user's name.
@@ -13,7 +25,7 @@ Telegram API token
 Installation
 Clone this repository.
 Install the dependencies by running npm install.
-Replace the token variable in the code with your Telegram API token.
+Replace the token variable in index.js with your Telegram API token.
 Start the bot by running npm start.
 Usage
 Once the bot is running, you can interact with it by sending commands in a Telegram chat. The available commands are:
@@ -24,27 +36,7 @@ Once the bot is running, you can interact with it by sending commands in a Teleg
 Built With
 Node.js
 node-telegram-bot-api
-Author
-Your Name
-
+Authors
+Sasha Kozoriz
 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-Once the bot is running, you can interact with it by sending commands in a Telegram chat. The available commands are:
-
-👋 /start: Sends a warm welcome message and a cute sticker to the user.
-
-👤 /info: Returns the user's name.
-
-🎮 /game: Starts a fun number guessing game.
-
-Built With
-
-Node.js
-node-telegram-bot-api
-Author
-
-Your Name
-
-License
-
 This project is licensed under the MIT License - see the LICENSE file for details.
