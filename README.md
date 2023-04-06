@@ -14,7 +14,7 @@ const token = "<API-TOKEN>";
 ```
 2. Run the bot using the following command:
 ```bash
-$ node bot.js
+$ npm start
 ```
 Bot commands:
 - `/start`: Greets the user.
