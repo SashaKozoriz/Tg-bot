@@ -20,7 +20,8 @@ Bot commands:
 - `/start`: Greets the user.
 - `/info`: Displays the user's name.
 - `/game`: Plays a number guessing game.
-
+- `/location` : Show user location.
+- `/qoutes` : Generate random qoutes.
 ## Overview
 This bot utilizes the following functions:
 - `bot.sendMessage(chatId, message, options)`: Sends a text message to a user.
